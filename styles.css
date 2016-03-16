@@ -11,81 +11,103 @@ body{
 
 
 #holder{
-	background-color: #CCC;
+	background-color:#999;
 	background-repeat: no-repeat;
-	height: 2000px;
+	height: 800px;
 	width: 700px;
 	margin:auto;
 }
 
 /*Section 1*/
 #banner{
-	background-color:#F00;
+	background-color:#666;
+	color:#FF0;
 	width:800px;
 	height: 100px;
-	margin-left:-50px;
+	margin: 10px 0px 0px -50px;
+	padding-top:10px;
 }
 
 #nav{
-	margin-top:25px;
-	width:700px;
-	height:50px;
-	border-style:dashed;	
+	margin: 10px 0px 0px 18px;
+	width:800px;
+	height:25px;	
 }
 
-ul#menu li{
-	display:inline;	
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;	
 }
 
+li{
+	float:left;
+	border-right: 1px solid #FF0
+}
+
+li:last-child{
+	border-right:none;
+}
+
+a{
+	display:block;
+	padding: 8px 40px 8px 40px;
+	background-color:#000;
+}
 
 /*Section 2*/
 #content1{
-	margin-top:25px;
-	width:700px;
-	height:250px;
-	border-style:dashed;
+	margin-top:10px;
+	width:695px;
+	height:225px;
+	border-style:solid;
 }
 
 #imageCarousel{
-	margin-top:10px;
+	margin: 10px 0px 0px 25px;
 	width:300px;
 	height:200px;
-	border-style:dashed;
+	border-style:solid;
 	float:left;
+	
+	/*This is placeholding where I want a carousel*/
+	background-image:url(assets/Current%20Headshot.JPG);
+	background-size: 150px 200px;
+	background-repeat:no-repeat;
+	background-position:center;
 }
 
 #biography{
-	margin-top:10px;
+	margin: 10px 25px 0px 0px;
 	width:300px;
 	height:200px;
-	border-style:dashed;
+	border-style:solid;
 	float:right;
 }
 
 
 /*Section 3*/
 #content2{
-	margin-top:25px;
-	width:700px;
-	height:250px;
-	border-style:dashed;
+	margin-top:-3px;
+	width:695px;
+	height:448px;
+	border-style:solid;
 }
 
 #newsAchievements{
-	margin-top:10px;
-	width:700px;
+	margin:10px 0px 0px 20px;
+	width:650px;
 	height:200px;
-	border-style:dashed;
+	border-style:solid;
 	float:left;
+	text-align:center;
 }
 
 #interests{
-	margin-top:10px;
-	width:700px;
+	margin:10px 0px 0px 20px;
+	width:650px;
 	height:200px;
-	border-style:dashed;
+	border-style:solid;
 	float:left;
-}
-
-#footer{	
+	text-align:center;
 }
