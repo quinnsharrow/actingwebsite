@@ -62,8 +62,13 @@ a:hover {
 }
 
 
+.center{
+	margin: auto;
+	padding: 0px 75px 0px 75px;
+}
 
 /*Section 2*/
+/*content1 houses the slideshow and the biography*/
 .content1{
 	margin-top:10px;
 	width:695px;
@@ -71,18 +76,12 @@ a:hover {
 	border-style:solid;
 }
 
-.imageCarousel{
+.slideshow{
 	margin: 10px 0px 0px 25px;
 	width:300px;
 	height:200px;
 	border-style:solid;
-	float:left;
-	
-	/*This is placeholding where I want a carousel*/
-	background-image:url(assets/Current%20Headshot.JPG);
-	background-size: 150px 200px;
-	background-repeat:no-repeat;
-	background-position:center;
+	float:left;	
 }
 
 .biography{
@@ -95,6 +94,7 @@ a:hover {
 
 
 /*Section 3*/
+/*content2 houses newsAchievements and interests*/
 .content2{
 	margin-top:-3px;
 	width:695px;
@@ -119,3 +119,55 @@ a:hover {
 	float:left;
 	text-align:center;
 }
+
+
+
+/*This section is for the Headshots page*/
+.headshotdiv{
+	margin:auto;
+	width:650px;
+	height:670px;
+	border-style:solid;
+}
+
+/*Used for all headshots except last child*/
+.headshotthumbnail1{
+	margin: 10px 30px 0px 30px;
+	width: 150px;
+	height: 200px;
+	float:left;
+	border-style:solid;
+	background-size:cover;
+}
+
+/*Used to clear float and start new row*/
+.headshotthumbnail2{
+	margin: 10px 30px 0px 30px;
+	width: 150px;
+	height: 200px;
+	border-style:solid;
+	background-size:cover;
+	float:left;
+	clear:left;
+}
+
+/*Individual headshots here so they aren't in source code*/
+.headshot1{
+	background-image:url(assets/scaleddownheadshots/PurpleShirtSuit.jpg);
+	}
+.headshot2{
+	background-image:url(assets/scaleddownheadshots/RedShirt.jpg)}
+.headshot3{
+	background-image:url(assets/scaleddownheadshots/BlueShirt1.jpg)}
+.headshot4{
+	background-image:url(assets/scaleddownheadshots/BlueShirt2.jpg)}
+.headshot5{
+	background-image:url(assets/scaleddownheadshots/WhiteShirt1.jpg)}
+.headshot6{
+	background-image:url(assets/scaleddownheadshots/WhiteShirt2.jpg)}
+.headshot7{
+	background-image:url(assets/scaleddownheadshots/WhiteBlueShirt.jpg)}
+
+
+
+
